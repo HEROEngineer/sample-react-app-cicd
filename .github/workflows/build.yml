@@ -93,7 +93,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: ${{ github.event_name != 'pull-request'}}
-          tags: heroengineer/simple-react-app:testversion
+          tags: heroengineer/simple-react-app:latest
 
   # build:
   #   needs: test
