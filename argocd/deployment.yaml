@@ -14,7 +14,7 @@ spec:
         app: sample-react-app
     spec:
       containers:
-      - image: heroengineer/simple-react-app:testversion
+      - image: heroengineer/simple-react-app:latest
         name: sample-react-app
         ports:
         - containerPort: 3000
