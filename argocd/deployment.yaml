@@ -17,4 +17,4 @@ spec:
       - image: heroengineer/simple-react-app:testversion
         name: sample-react-app
         ports:
-        - containerPort: 80
+        - containerPort: 3000
